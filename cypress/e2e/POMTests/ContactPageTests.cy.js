@@ -27,7 +27,7 @@ describe('Contact Page Test Cases', function () {
         contactactions.enterMessage('Hi There, I would like to register as student and like to learn Advanced Selenium. Please let me know about the fees and course duration')
     })//end of it
 
-    it('Test Case 4 : Fill ENQUIRE NOW form Blank field Verification', () => {
+    it('Test Case 4-Fill ENQUIRE NOW form Blank field Verification', () => {
         contactactions.clickSubmitBtn();
         contactactions.firstLastNameValidation('This field is required1.');
         contactactions.mobileValidation('This field is required1.');

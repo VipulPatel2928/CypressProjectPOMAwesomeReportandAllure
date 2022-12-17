@@ -5,7 +5,6 @@ module.exports = defineConfig({
   videosFolder: 'cypress/videos',
   video: true,
   pageLoadTimeout : 600000,
-
   screenshotOnRunFailure: true,
 
   "reporter":"cypress-multi-reporters",
