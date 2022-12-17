@@ -1,0 +1,380 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 11,
+    "passes": 10,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-12-17T08:41:12.850Z",
+    "end": "2022-12-17T08:42:14.413Z",
+    "duration": 25838,
+    "testsRegistered": 11,
+    "passPercent": 90.9090909090909,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f9c02485-bf31-448c-a2d5-0df1185cb163",
+      "title": "",
+      "fullFile": "cypress\\e2e\\POMTests\\ContactPageTestsWithFixures.cy.js",
+      "file": "cypress\\e2e\\POMTests\\ContactPageTestsWithFixures.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4460852e-04be-4765-81f4-81a7c0e96527",
+          "title": "Contact Page Test Cases with Fixture File",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test Case 1 : Fill ENQUIRE NOW form with use of fixure file",
+              "fullTitle": "Contact Page Test Cases with Fixture File Test Case 1 : Fill ENQUIRE NOW form with use of fixure file",
+              "timedOut": null,
+              "duration": 4725,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "contactactions.SelectInqueryFor(data.courseselection);\ncontactactions.enterFirstLastName(data.firstname, data.lastname);\ncontactactions.enterMobileNo(data.mobileno);\ncontactactions.enterEmail(data.email);\ncontactactions.enterMessage(data.message);",
+              "err": {},
+              "uuid": "f6b91865-e686-4475-b1b7-6667adb9e1a9",
+              "parentUUID": "4460852e-04be-4765-81f4-81a7c0e96527",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 4 : Fill ENQUIRE NOW form Blank field Verification",
+              "fullTitle": "Contact Page Test Cases with Fixture File Test Case 4 : Fill ENQUIRE NOW form Blank field Verification",
+              "timedOut": null,
+              "duration": 1285,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "contactactions.clickSubmitBtn();\ncontactactions.firstLastNameValidation(data.blankfieldvalidationmsg);\ncontactactions.mobileValidation(data.blankfieldvalidationmsg);\ncontactactions.emailValidation(data.blankfieldvalidationmsg);\ncontactactions.messageValidation(data.blankfieldvalidationmsg);",
+              "err": {},
+              "uuid": "37fc257e-6c78-4755-b5a9-13b56cf9106c",
+              "parentUUID": "4460852e-04be-4765-81f4-81a7c0e96527",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f6b91865-e686-4475-b1b7-6667adb9e1a9",
+            "37fc257e-6c78-4755-b5a9-13b56cf9106c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6010,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "48bf9dee-7009-47af-80b3-01da80137009",
+      "title": "",
+      "fullFile": "cypress\\e2e\\POMTests\\HomePageTests.cy.js",
+      "file": "cypress\\e2e\\POMTests\\HomePageTests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9f2920a1-e2c3-4b79-a079-4c0fa2049172",
+          "title": "Home Page Test Cases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test Case 1 : Verify page title",
+              "fullTitle": "Home Page Test Cases Test Case 1 : Verify page title",
+              "timedOut": null,
+              "duration": 1145,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homeactions.verifyPagetitle();",
+              "err": {},
+              "uuid": "776d6a71-7752-4e50-b296-03e0c15a9a3a",
+              "parentUUID": "9f2920a1-e2c3-4b79-a079-4c0fa2049172",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 2 : Verify page current url",
+              "fullTitle": "Home Page Test Cases Test Case 2 : Verify page current url",
+              "timedOut": null,
+              "duration": 593,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homeactions.verifyPagecurrentURL();",
+              "err": {},
+              "uuid": "6c222ae3-b836-4ca6-8c2d-72e0570cfdd1",
+              "parentUUID": "9f2920a1-e2c3-4b79-a079-4c0fa2049172",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 3 : Click More button",
+              "fullTitle": "Home Page Test Cases Test Case 3 : Click More button",
+              "timedOut": null,
+              "duration": 1281,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homeactions.clickReadMoreBtn();",
+              "err": {},
+              "uuid": "3d5059cf-3ce8-40e5-971e-c1ea28f656f6",
+              "parentUUID": "9f2920a1-e2c3-4b79-a079-4c0fa2049172",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 4 : Click Navigation Bar",
+              "fullTitle": "Home Page Test Cases Test Case 4 : Click Navigation Bar",
+              "timedOut": null,
+              "duration": 813,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homeactions.clickNavBar();",
+              "err": {},
+              "uuid": "fea5a2b6-8d7b-473b-acbf-160e89075f82",
+              "parentUUID": "9f2920a1-e2c3-4b79-a079-4c0fa2049172",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 5 : Verify Navigation Bar Options",
+              "fullTitle": "Home Page Test Cases Test Case 5 : Verify Navigation Bar Options",
+              "timedOut": null,
+              "duration": 724,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homeactions.verifyNavBarOptionList();",
+              "err": {},
+              "uuid": "b5f895af-0715-417c-a352-514b089da125",
+              "parentUUID": "9f2920a1-e2c3-4b79-a079-4c0fa2049172",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "776d6a71-7752-4e50-b296-03e0c15a9a3a",
+            "6c222ae3-b836-4ca6-8c2d-72e0570cfdd1",
+            "3d5059cf-3ce8-40e5-971e-c1ea28f656f6",
+            "fea5a2b6-8d7b-473b-acbf-160e89075f82",
+            "b5f895af-0715-417c-a352-514b089da125"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4556,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "171af0b9-f16d-4e76-b590-c3a84dbe896d",
+      "title": "",
+      "fullFile": "cypress\\e2e\\POMTests\\ContactPageTests.cy.js",
+      "file": "cypress\\e2e\\POMTests\\ContactPageTests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "943e9c6c-da7a-411f-8592-3d88acedbfd3",
+          "title": "Contact Page Test Cases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test Case 1 : Verify page title",
+              "fullTitle": "Contact Page Test Cases Test Case 1 : Verify page title",
+              "timedOut": null,
+              "duration": 2814,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "contactactions.verifyPagetitle();",
+              "err": {},
+              "uuid": "6fd1e2f4-aac3-408d-bd04-5e3ab6f4bbde",
+              "parentUUID": "943e9c6c-da7a-411f-8592-3d88acedbfd3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 2 : Verify current page URL",
+              "fullTitle": "Contact Page Test Cases Test Case 2 : Verify current page URL",
+              "timedOut": null,
+              "duration": 958,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "contactactions.verifyPagecurrentURL();",
+              "err": {},
+              "uuid": "5eb0d2b1-666b-4498-8467-660381f1746a",
+              "parentUUID": "943e9c6c-da7a-411f-8592-3d88acedbfd3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 3 : Fill ENQUIRE NOW form",
+              "fullTitle": "Contact Page Test Cases Test Case 3 : Fill ENQUIRE NOW form",
+              "timedOut": null,
+              "duration": 5000,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "contactactions.SelectInqueryFor('Selenium - Advanced');\ncontactactions.enterFirstLastName('Vipul', 'Patel');\ncontactactions.enterMobileNo('9638527412');\ncontactactions.enterEmail('inquiry@techivp.com');\ncontactactions.enterMessage('Hi There, I would like to register as student and like to learn Advanced Selenium. Please let me know about the fees and course duration');",
+              "err": {},
+              "uuid": "920bbed6-8ee6-4fe5-bf85-d66803441814",
+              "parentUUID": "943e9c6c-da7a-411f-8592-3d88acedbfd3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 4 : Fill ENQUIRE NOW form Blank field Verification",
+              "fullTitle": "Contact Page Test Cases Test Case 4 : Fill ENQUIRE NOW form Blank field Verification",
+              "timedOut": null,
+              "duration": 6500,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "\"assets/ContactPageTests.cy.js/Contact Page Test Cases -- Test Case 4 : Fill ENQUIRE NOW form Blank field Verification (failed).png\"",
+              "code": "contactactions.clickSubmitBtn();\ncontactactions.firstLastNameValidation('This field is required1.');\ncontactactions.mobileValidation('This field is required1.');\ncontactactions.emailValidation('This field is required1.');\ncontactactions.messageValidation('This field is required1.');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<label#contact_name-error.error>' to have text 'This field is required1.', but the text was 'This field is required.'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<label#contact_name-error.error>' to have text 'This field is required1.', but the text was 'This field is required.'\n    at ContactPageActions.firstLastNameValidation (webpack:///./cypress/pageobject/pageactions/ContactPageActions.cy.js:48:48)\n    at Context.eval (webpack:///./cypress/e2e/POMTests/ContactPageTests.cy.js:32:23)",
+                "diff": "- 'This field is required.'\n+ 'This field is required1.'\n"
+              },
+              "uuid": "94975ab7-7719-4320-ae27-ed480e34cd20",
+              "parentUUID": "943e9c6c-da7a-411f-8592-3d88acedbfd3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6fd1e2f4-aac3-408d-bd04-5e3ab6f4bbde",
+            "5eb0d2b1-666b-4498-8467-660381f1746a",
+            "920bbed6-8ee6-4fe5-bf85-d66803441814"
+          ],
+          "failures": [
+            "94975ab7-7719-4320-ae27-ed480e34cd20"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 15272,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
