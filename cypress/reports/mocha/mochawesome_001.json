@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 1,
-    "start": "2022-12-25T10:21:09.418Z",
-    "end": "2022-12-25T10:21:44.112Z",
-    "duration": 34694,
+    "start": "2022-12-25T12:00:56.467Z",
+    "end": "2022-12-25T12:01:21.977Z",
+    "duration": 25510,
     "testsRegistered": 4,
     "passPercent": 75,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "cdcc13b7-ce35-425c-af3d-609ff138b7f8",
+      "uuid": "3a6bb39c-90b7-41e8-a9ed-9a73b34b7a73",
       "title": "",
       "fullFile": "cypress\\e2e\\POMTests\\ContactPageTests.cy.js",
       "file": "cypress\\e2e\\POMTests\\ContactPageTests.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "85c203ac-4855-4b90-af9c-3c89e6203de1",
+          "uuid": "ba50ccc4-d38f-49ad-85ec-720f8f9cedc8",
           "title": "Contact Page Test Cases",
           "fullFile": "",
           "file": "",
@@ -38,17 +38,17 @@
               "title": "Test Case 1 : Verify page title",
               "fullTitle": "Contact Page Test Cases Test Case 1 : Verify page title",
               "timedOut": null,
-              "duration": 6545,
+              "duration": 2693,
               "state": "passed",
-              "speed": "medium",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "contactactions.verifyPagetitle();",
               "err": {},
-              "uuid": "37e06437-fac4-4c5c-99da-50c5f951ad04",
-              "parentUUID": "85c203ac-4855-4b90-af9c-3c89e6203de1",
+              "uuid": "24d8cfa7-6e42-4709-a752-5e36948b87b9",
+              "parentUUID": "ba50ccc4-d38f-49ad-85ec-720f8f9cedc8",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Test Case 2 : Verify current page URL",
               "fullTitle": "Contact Page Test Cases Test Case 2 : Verify current page URL",
               "timedOut": null,
-              "duration": 2499,
+              "duration": 1240,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "contactactions.verifyPagecurrentURL();",
               "err": {},
-              "uuid": "a401b526-060e-459e-bf4f-d91715d8300e",
-              "parentUUID": "85c203ac-4855-4b90-af9c-3c89e6203de1",
+              "uuid": "6173bbd0-30ce-4e65-8a16-0d15b5793d7d",
+              "parentUUID": "ba50ccc4-d38f-49ad-85ec-720f8f9cedc8",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Test Case 3 : Fill ENQUIRE NOW form",
               "fullTitle": "Contact Page Test Cases Test Case 3 : Fill ENQUIRE NOW form",
               "timedOut": null,
-              "duration": 5839,
+              "duration": 5064,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -83,8 +83,8 @@
               "context": null,
               "code": "contactactions.SelectInqueryFor('Selenium - Advanced');\ncontactactions.enterFirstLastName('Vipul', 'Patel');\ncontactactions.enterMobileNo('9638527412');\ncontactactions.enterEmail('inquiry@techivp.com');\ncontactactions.enterMessage('Hi There, I would like to register as student and like to learn Advanced Selenium. Please let me know about the fees and course duration');",
               "err": {},
-              "uuid": "8cff6117-2c95-4da8-a5cd-788b663a9db6",
-              "parentUUID": "85c203ac-4855-4b90-af9c-3c89e6203de1",
+              "uuid": "dc269ef7-2610-4ffd-831b-2c5d68a94a9f",
+              "parentUUID": "ba50ccc4-d38f-49ad-85ec-720f8f9cedc8",
               "isHook": false,
               "skipped": false
             },
@@ -92,7 +92,7 @@
               "title": "Test Case 4-Fill ENQUIRE NOW form Blank field Verification",
               "fullTitle": "Contact Page Test Cases Test Case 4-Fill ENQUIRE NOW form Blank field Verification",
               "timedOut": null,
-              "duration": 7884,
+              "duration": 6344,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -105,24 +105,24 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: expected '<label#contact_name-error.error>' to have text 'This field is required1.', but the text was 'This field is required.'\n    at ContactPageActions.firstLastNameValidation (webpack:///./cypress/pageobject/pageactions/ContactPageActions.cy.js:48:48)\n    at Context.eval (webpack:///./cypress/e2e/POMTests/ContactPageTests.cy.js:32:23)",
                 "diff": "- 'This field is required.'\n+ 'This field is required1.'\n"
               },
-              "uuid": "102aaa6e-162c-4467-ac84-6f88262fa592",
-              "parentUUID": "85c203ac-4855-4b90-af9c-3c89e6203de1",
+              "uuid": "6ad19f96-4f0d-4ec9-8cce-8411bb7a221a",
+              "parentUUID": "ba50ccc4-d38f-49ad-85ec-720f8f9cedc8",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "37e06437-fac4-4c5c-99da-50c5f951ad04",
-            "a401b526-060e-459e-bf4f-d91715d8300e",
-            "8cff6117-2c95-4da8-a5cd-788b663a9db6"
+            "24d8cfa7-6e42-4709-a752-5e36948b87b9",
+            "6173bbd0-30ce-4e65-8a16-0d15b5793d7d",
+            "dc269ef7-2610-4ffd-831b-2c5d68a94a9f"
           ],
           "failures": [
-            "102aaa6e-162c-4467-ac84-6f88262fa592"
+            "6ad19f96-4f0d-4ec9-8cce-8411bb7a221a"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 22767,
+          "duration": 15341,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

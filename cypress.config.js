@@ -37,4 +37,5 @@ module.exports = defineConfig({
     // Default is 0
     "openMode": 1
   },
+  projectId: "rzhdwu"
 })
