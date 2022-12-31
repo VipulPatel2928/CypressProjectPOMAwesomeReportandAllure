@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-31T15:21:35.747Z",
+    "end": "2022-12-31T15:21:41.748Z",
+    "duration": 6001,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "80c69e31-ee03-4d88-b822-f1e7f8196adf",
+      "title": "",
+      "fullFile": "cypress\\e2e\\POMTests\\HomePageTests.cy.js",
+      "file": "cypress\\e2e\\POMTests\\HomePageTests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a9920004-7a41-445d-9cf2-27e4c911bd0f",
+          "title": "Home Page Test Cases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test Case 1 : Verify page title",
+              "fullTitle": "Home Page Test Cases Test Case 1 : Verify page title",
+              "timedOut": null,
+              "duration": 1052,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homeactions.verifyPagetitle();",
+              "err": {},
+              "uuid": "869f1565-9ed8-4fe1-a3c4-633e199e7b40",
+              "parentUUID": "a9920004-7a41-445d-9cf2-27e4c911bd0f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 2 : Verify page current url",
+              "fullTitle": "Home Page Test Cases Test Case 2 : Verify page current url",
+              "timedOut": null,
+              "duration": 493,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homeactions.verifyPagecurrentURL();",
+              "err": {},
+              "uuid": "61fccd1c-1bbc-4886-9701-9074c6e2212f",
+              "parentUUID": "a9920004-7a41-445d-9cf2-27e4c911bd0f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 3 : Click More button",
+              "fullTitle": "Home Page Test Cases Test Case 3 : Click More button",
+              "timedOut": null,
+              "duration": 813,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homeactions.clickReadMoreBtn();",
+              "err": {},
+              "uuid": "d5b3b14b-bc04-4172-a0c9-b0d50ec6b8d1",
+              "parentUUID": "a9920004-7a41-445d-9cf2-27e4c911bd0f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 4 : Click Navigation Bar",
+              "fullTitle": "Home Page Test Cases Test Case 4 : Click Navigation Bar",
+              "timedOut": null,
+              "duration": 478,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homeactions.clickNavBar();",
+              "err": {},
+              "uuid": "9a39236b-4074-4846-bfb6-c6fc809723f6",
+              "parentUUID": "a9920004-7a41-445d-9cf2-27e4c911bd0f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 5 : Verify Navigation Bar Options",
+              "fullTitle": "Home Page Test Cases Test Case 5 : Verify Navigation Bar Options",
+              "timedOut": null,
+              "duration": 399,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homeactions.verifyNavBarOptionList();",
+              "err": {},
+              "uuid": "d8132f6e-f523-43ba-a244-2017825ba81b",
+              "parentUUID": "a9920004-7a41-445d-9cf2-27e4c911bd0f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "869f1565-9ed8-4fe1-a3c4-633e199e7b40",
+            "61fccd1c-1bbc-4886-9701-9074c6e2212f",
+            "d5b3b14b-bc04-4172-a0c9-b0d50ec6b8d1",
+            "9a39236b-4074-4846-bfb6-c6fc809723f6",
+            "d8132f6e-f523-43ba-a244-2017825ba81b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3235,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

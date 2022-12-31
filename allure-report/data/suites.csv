@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Dec 31 21:12:58 IST 2022","Sat Dec 31 21:13:00 IST 2022","2504","","Contact Page Test Cases","","","","Test Case 2 : Verify current page URL",""
+"failed","Sat Dec 31 21:13:13 IST 2022","Sat Dec 31 21:13:19 IST 2022","5818","","Contact Page Test Cases","","","","Test Case 4-Fill ENQUIRE NOW form Blank field Verification",""
+"passed","Sat Dec 31 21:13:00 IST 2022","Sat Dec 31 21:13:08 IST 2022","7250","","Contact Page Test Cases","","","","Test Case 3 : Fill ENQUIRE NOW form",""
+"passed","Sat Dec 31 21:12:55 IST 2022","Sat Dec 31 21:12:58 IST 2022","2989","","Contact Page Test Cases","","","","Test Case 1 : Verify page title",""

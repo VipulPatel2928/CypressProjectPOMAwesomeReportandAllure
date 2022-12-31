@@ -1,0 +1,169 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 3,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-12-31T15:42:50.862Z",
+    "end": "2022-12-31T15:43:19.624Z",
+    "duration": 28762,
+    "testsRegistered": 4,
+    "passPercent": 75,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6169d96a-9472-4db8-b358-b9918ab439e7",
+      "title": "",
+      "fullFile": "cypress\\e2e\\POMTests\\ContactPageTests.cy.js",
+      "file": "cypress\\e2e\\POMTests\\ContactPageTests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "88010c0d-8dc0-4e94-9623-50b26484efa4",
+          "title": "Contact Page Test Cases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test Case 1 : Verify page title",
+              "fullTitle": "Contact Page Test Cases Test Case 1 : Verify page title",
+              "timedOut": null,
+              "duration": 2980,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "contactactions.verifyPagetitle();",
+              "err": {},
+              "uuid": "f0da32a2-eb06-48b8-88a2-3b7c99ba7791",
+              "parentUUID": "88010c0d-8dc0-4e94-9623-50b26484efa4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 2 : Verify current page URL",
+              "fullTitle": "Contact Page Test Cases Test Case 2 : Verify current page URL",
+              "timedOut": null,
+              "duration": 2502,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "contactactions.verifyPagecurrentURL();",
+              "err": {},
+              "uuid": "d44b5e12-df30-40f3-b68f-68badc3bb09d",
+              "parentUUID": "88010c0d-8dc0-4e94-9623-50b26484efa4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 3 : Fill ENQUIRE NOW form",
+              "fullTitle": "Contact Page Test Cases Test Case 3 : Fill ENQUIRE NOW form",
+              "timedOut": null,
+              "duration": 7247,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "contactactions.SelectInqueryFor('Selenium - Advanced');\ncontactactions.enterFirstLastName('Vipul', 'Patel');\ncontactactions.enterMobileNo('9638527412');\ncontactactions.enterEmail('inquiry@techivp.com');\ncontactactions.enterMessage('Hi There, I would like to register as student and like to learn Advanced Selenium. Please let me know about the fees and course duration');",
+              "err": {},
+              "uuid": "847e1a2c-d2a8-4d9d-87e0-45356d4a1752",
+              "parentUUID": "88010c0d-8dc0-4e94-9623-50b26484efa4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 4-Fill ENQUIRE NOW form Blank field Verification",
+              "fullTitle": "Contact Page Test Cases Test Case 4-Fill ENQUIRE NOW form Blank field Verification",
+              "timedOut": null,
+              "duration": 5814,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "\"assets/ContactPageTests.cy.js/Contact Page Test Cases -- Test Case 4-Fill ENQUIRE NOW form Blank field Verification (failed).png\"",
+              "code": "contactactions.clickSubmitBtn();\ncontactactions.firstLastNameValidation('This field is required1.');\ncontactactions.mobileValidation('This field is required1.');\ncontactactions.emailValidation('This field is required1.');\ncontactactions.messageValidation('This field is required1.');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<label#contact_name-error.error>' to have text 'This field is required1.', but the text was 'This field is required.'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<label#contact_name-error.error>' to have text 'This field is required1.', but the text was 'This field is required.'\n    at ContactPageActions.firstLastNameValidation (webpack:///./cypress/pageobject/pageactions/ContactPageActions.cy.js:48:48)\n    at Context.eval (webpack:///./cypress/e2e/POMTests/ContactPageTests.cy.js:32:23)",
+                "diff": "- 'This field is required.'\n+ 'This field is required1.'\n"
+              },
+              "uuid": "e6c010d9-47c5-482a-9476-1c8491837c38",
+              "parentUUID": "88010c0d-8dc0-4e94-9623-50b26484efa4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f0da32a2-eb06-48b8-88a2-3b7c99ba7791",
+            "d44b5e12-df30-40f3-b68f-68badc3bb09d",
+            "847e1a2c-d2a8-4d9d-87e0-45356d4a1752"
+          ],
+          "failures": [
+            "e6c010d9-47c5-482a-9476-1c8491837c38"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 18543,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
