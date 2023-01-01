@@ -14,7 +14,7 @@ describe('Contact Page Test Cases with Fixture File', function () {
      })
  
      beforeEach(()=>{
-        // function to open url called from here
+        // function to open url called from here, custom function
         contactactions.openURL();
      })
     it('Test Case 1 : Fill ENQUIRE NOW form with use of fixure file', () => {
